@@ -22,7 +22,7 @@ fn validate_grading_system() {
 
 /// Calculate the grade
 fn calculate_grade(carrots: i32, nuts: i32, seeds: i32) -> i32 {
-    return (carrots+nuts) * (carrots + nuts + seeds);
+    (carrots+nuts) * (carrots + nuts + seeds)
 }
 
 /// Validate the safety system
