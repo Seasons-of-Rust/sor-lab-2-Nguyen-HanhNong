@@ -72,7 +72,7 @@ students. In the end, there will only be one rabbit left.
 
 Every day, there are two options. If there is an odd number of rabbits, then the
 rabbits "multiply like wild", specifically by three. Then one more rabbit shows
-up. Specifically, there will be `3 * (rabbits + 1)` rabbits the next day.
+up. Specifically, there will be `(3 * rabbits) + 1` rabbits the next day.
 
 On the other hand, if there is an even number of rabbits, then that's the
 perfect number for the wolves to eat! The next day, there will be half as many
